@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{1433:function(e,n,t){"use strict";t.r(n);var c={name:"Index",middleware:"authTeacher",layout:"teacher"},r=t(2),component=Object(r.a)(c,(function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("\n  Главная страница\n")])}),[],!1,null,"9a2b0caa",null);n.default=component.exports}}]);

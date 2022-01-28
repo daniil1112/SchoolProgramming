@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[36],{1431:function(e,t,n){"use strict";n.r(t);var d={name:"Index",middleware:"authStudent",layout:"student"},l=n(2),component=Object(l.a)(d,(function(){var e=this.$createElement;return(this._self._c||e)("div")}),[],!1,null,"3069a371",null);t.default=component.exports}}]);
