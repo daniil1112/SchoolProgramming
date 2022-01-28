@@ -1,0 +1,29 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "description": "My classy Nuxt.js project",
+  "author": "Daniil",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.2",
+    "bootstrap": "^4.4.1",
+    "element-ui": "^2.13.0",
+    "nuxt": "^2.0.0",
+    "nuxt-element-ui": "^1.0.10",
+    "vue": "^2.6.11",
+    "vue-textarea-autosize": "^1.1.1"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^4.0.0-0"
+  }
+}
