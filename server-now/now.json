@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.js" }
+  ],
+  "env": {
+    "DB_URL" : "mongodb+srv://daniil1112:limpopolimpopo@cluster0-gifle.mongodb.net/test?retryWrites=true&w=majority",
+
+    "SESSION_COOKIE_MAXAGE":  "3600000",
+    "SESSION_SECRET" : "randomsecretcode",
+    "SESSION_SAVEUNITIALIZED" : "false",
+    "SESSION_RESAVE" : "false",
+
+    "TOKEN_SECRET": "verysecretcoken",
+
+    "PRODUCTION" : "false"
+  }
+}
